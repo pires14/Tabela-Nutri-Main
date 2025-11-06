@@ -124,9 +124,17 @@ button[disabled=disabled], button:disabled {
 }
 
 #filtrar-tabela{
- color: #fff;
+ color: black;
  background-color: #c461bf92;
  height: 50px;
  width: 300px;
  margin-bottom: 15px;
+}
+
+#filtrar-tabela::placeholder{
+	color: black;
+}
+
+.invisivel{
+	display: none;
 }
